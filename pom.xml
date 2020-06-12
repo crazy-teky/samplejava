@@ -17,12 +17,12 @@
   </dependencies>
 	
 	
-	<build>
-        <plugins>
+<plugins>
             <plugin>
-              <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.surefire.version}</version>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin-version}</version>
+ 
             </plugin>
-            </plugins>
-            </build>
+        </plugins>
 </project>
